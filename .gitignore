@@ -1,0 +1,18 @@
+# Secrets -- never publish
+credentials_CDSE.txt
+credentials*.txt
+identity.dataspace.copernicus.eu_credentials/
+
+# Regenerable intermediates
+# 3.6 GB of metered Sentinel Hub tiles (re-fetchable with the script)
+cdse_cache/
+# 10 m analysis GeoTIFFs (~0.5 GB)
+work/
+_gee_tmp/
+__pycache__/
+*.part
+*.log
+_zoomtest.html
+_prev_*/
+.claude/
+dist/
